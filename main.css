@@ -1,0 +1,30 @@
+html {
+  font-size: 22px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: bisque;
+  color: brown;
+}
+a {
+  color: antiquewhite;
+}
+a:visited {
+  color: aqua;
+}
+a:hover {
+  color: rgb(29, 18, 4);
+}
+table,
+tr,
+th,
+td,
+caption {
+  border: 1px solid black;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: collapse;
+  padding: auto;
+}
+h1 {
+  color: red;
+}

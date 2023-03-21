@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <article>
+      <h2>Contact ME</h2>
+      <p></p>
+      <form action="http://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Persocal</legend>
+          <p>
+            <label for="firstname">firstname</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="firstname"
+              autocomplete="on"
+            />
+          </p>
+          <p>
+            <label for="lastname">lastname</label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="lastname"
+              autocomplete="on"
+            />
+          </p>
+          <p>
+            <label for="password">password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+              autocomplete="on"
+            />
+          </p>
+          <label for="phone">phone</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+            placeholder="phone"
+            autocomplete="on"
+          />
+        </p>
+        <label for="year">year of birth</label>
+        <input
+          type="number"
+          name="year"
+          id="year"
+          placeholder="year"
+          min="1990"
+          max="2023"
+          step="10"
+          value="2000"
+        />
+      </p>
+    </p>
+    <label for="tea">tea</label>
+    <select name="tea" id="tea">
+        <optgroup label="tea">
+            <option value="A">milk tea</option>
+            <option value="B">green tea</option>
+            <option value="C">black tea</option>
+
+        </optgroup>
+        <optgroup label="น้ำอื่นๆ">
+        <option value="D">โกโก้</option>
+        <option value="E">นมเย็น</option>
+        <option value="F">แคนตาลูป</option>
+        <option value="G">กล้วยหอม</option>
+        </optgroup>
+    </select>
+
+   
+  </p>
+      
+
+        </fieldset>
+        <fieldset>
+            <legend>อาหารที่คุณชอบ</legend>
+        <p><input type="radio" name="food" id="food">
+            <label for="P">หมูกรอบ</label>
+        </p>
+        <p><input type="radio" name="food" id="food">
+            <label for="H">แฮมเบอร์เกอร์</label>
+        </p>
+        <p><input type="radio" name="food" id="food">
+            <label for="K">คะน้าหมู</label>
+        </p>
+
+        </fieldset>
+        <fieldset>
+            <legend>คุณชอบสัตว์อะไร</legend>
+            <p><input type="checkbox">
+                <label for="dog">หมา</label>
+            </p>
+            <p><input type="checkbox">
+                <label for="cat">แมว</label>
+            </p>
+            <p><input type="checkbox">
+                <label for="rappat">นกแก้ว</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Send Me</legend>
+            <p><textarea>
+                
+            </textarea></p>
+        </fieldset>
+        <p><input type="submit"></p>
+
+
+      </form>
+    </article>
+    <a href="index.html">back to first page</a>
+  </body>
+</html>
